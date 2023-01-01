@@ -1,0 +1,35 @@
+
+h1{
+    text-align: center;
+}
+.points li{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    list-style-type: disc;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gray;
+}
+.navbar >img{
+    width: 70px;
+    padding-left: 50px;
+}
+.nav-items{
+    list-style: none;
+    display: flex;
+    padding: 5px 5px;
+    margin: 10px 10px;
+}
+.nav-items >li{
+    padding: 15px 15px;
+}
+footer{
+    position: relative;
+    text-align: center;
+    bottom: 0;
+}
